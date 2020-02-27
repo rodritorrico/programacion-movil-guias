@@ -13,15 +13,29 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        btn_white.setOnClickListener{
-            toast("white")
-            layout_principal.setBackgroundColor(Color.WHITE)
+
+
+        btn_servicios.setOnClickListener{
+            dina.text = "servicios"
         }
 
-        btn_red.setOnClickListener{
-            toast("red")
-            layout_principal.setBackgroundColor(Color.RED)
+        btn_acerca.setOnClickListener{
+            dina.text = "acerca"
         }
+
+        btn_contact.setOnClickListener{
+            dina.text="contact"
+        }
+
+        btn_portafolio.setOnClickListener{
+            dina.text="portafolio"
+        }
+
+        btn_redes.setOnClickListener{
+            dina.text="redes"
+        }
+
+
 
 
     }
